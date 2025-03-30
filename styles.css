@@ -159,3 +159,24 @@ a {
     font-size: 36px;
     color: rgb(51, 49, 49);
 }
+
+.action-item-box {
+    background-color:  rgb(51, 112, 245);
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 25px; 
+    margin: 75px 0 75px 0;
+}
+
+.action-item-box .sign-up-button {
+    border: 3px solid white;
+    font-weight: bold;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 20px;
+}
