@@ -9,7 +9,7 @@ body {
     padding-right: clamp(100px, 20vw, 400px);
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -179,4 +179,13 @@ a {
 .call-to-action {
     font-weight: bold;
     font-size: 20px;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 25px 0;
+    flex: 0;
 }
